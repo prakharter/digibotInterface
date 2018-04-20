@@ -5,6 +5,6 @@
 
 export const environment = {
   production: false,
-  URL:'https://digibotserverapp.azurewebsites.net',
+  URL:'https://localhost:51211',
   PAYMENT_URL:'https://digibotpayment.herokuapp.com/#/main?token='
 };

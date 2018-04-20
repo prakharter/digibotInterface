@@ -1,12 +1,12 @@
 import {Component, Input} from "@angular/core";
-import {OnClickEvent, OnRatingChangeEven, OnHoverRatingChangeEvent} from "angular-star-rating/star-rating-struct";
+import {ClickEvent, RatingChangeEvent, HoverRatingChangeEvent } from 'angular-star-rating';
 import {AppService} from "../app.service";
 
 @Component({
   selector: 'rating-feedback',
   template: `    
         
-            <star-rating-comp   [starType]="'svg'" 
+            <star-rating-control   [starType]="'svg'" 
                                 [hoverEnabled]="true"
                                 (onClick)="onClick($event)" 
                                 (onRatingChange)="onRatingChange($event)"
@@ -18,7 +18,7 @@ import {AppService} from "../app.service";
                                 [step]="0.5"
                                 [showHalfStars]="true"
                                 [disabled]="!isSubmitted">                             
-            </star-rating-comp>
+            </star-rating-control>
             <button type="button" class="btn btn-outline-success" (click)="submitFeedback()" style="margin-top: 5%;" 
             *ngIf="isSubmitted">Submit</button>
             <!--<p>onHoverRatingChangeResult: {{onHoverRatingChangeResult | json}}</p>-->
@@ -30,21 +30,21 @@ export class RatingComponent {
 
   constructor(private _appService:AppService){}
   @Input() Feedback:any;
-  onClickResult:OnClickEvent;
-  onHoverRatingChangeResult:OnHoverRatingChangeEvent;
-  onRatingChangeResult:OnRatingChangeEven;
+  onClickResult:ClickEvent;
+  onHoverRatingChangeResult:HoverRatingChangeEvent;
+  onRatingChangeResult:RatingChangeEvent;
   isSubmitted:boolean = true;
-  onClick = ($event:OnClickEvent) => {
+  onClick = ($event:ClickEvent) => {
     console.log('onClick $event: ', $event);
     this.onClickResult = $event;
   };
 
-  onRatingChange = ($event:OnRatingChangeEven) => {
+  onRatingChange = ($event:RatingChangeEvent) => {
     console.log('onRatingUpdated $event: ', $event);
     this.onRatingChangeResult = $event;
   };
 
-  onHoverRatingChange = ($event:OnHoverRatingChangeEvent) => {
+  onHoverRatingChange = ($event:HoverRatingChangeEvent) => {
     console.log('onHoverRatingChange $event: ', $event);
     this.onHoverRatingChangeResult = $event;
   };
