@@ -1,0 +1,20 @@
+<div class="panel-footer" style="position: fixed; bottom: 1%; left: 4%;width:100%;" [hidden]="hideFooter">
+  <div class="input-group">
+    <input type="text"
+           class="chat-input"
+           [attr.placeholder]="placeholder"
+           (keydown.enter)="sendMessage(newMessage)"
+           [(ngModel)]="newMessage" />
+    <span class="input-group-btn">
+            <button id="chatButton" class="btn btn-primary" style="margin-left: 5%;"
+                    (click)="sendMessage(newMessage)"
+            >Send</button>
+          </span>
+  </div>
+</div>
+<div class="app-container" [hidden]="hideMic">
+  <div class="mic" [hidden]="OSHide">
+    <div class="ready" ><img style="margin-left: 50%" src="../assets/svg/mic.svg" alt="Tap me to speak" (click)="activateSpeechSearchMovie();$event.preventDefault()" /></div>
+    <div class="listening" (click)="stopSpeechRecognition()"><span class="listening-1">.</span><span class="listening-2">.</span><span class="listening-3">.</span></div>
+  </div>
+</div>

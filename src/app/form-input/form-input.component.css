@@ -1,0 +1,12 @@
+input.ng-valid[required] {
+  border: 5px solid #42A948; /* green */
+}
+
+input.ng-invalid.ng-dirty {
+     border: 5px solid #a94442; /* red */
+   }
+
+.tn_focus {
+  border:2px solid #000000;
+}
+

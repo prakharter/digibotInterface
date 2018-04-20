@@ -1,0 +1,112 @@
+<div class="container animated zoomIn" [ngStyle]="{'min-height':chat.state.MinHeight}"
+     style="background-size: cover;"
+     [ngClass]="{overlay: isOverlay}" [class.opacity]="isOpacity" [class.isChat]="chat.isChat == 'true'">
+  <div class="row">
+<div class="col-3" style  >
+  <img src="{{chat.state.BotImg}}" alt="" class="img-circle" />
+</div>
+<div class="{{messageClass}}" [class.btm-left-in]="chat.isClient == '0'"
+     [class.right-top]="chat.isClient == '1'">
+  <div class="emoji">
+    <p [class.triangle-right]="chat.isChat!='true'" [class.top]="chat.isClient == '1'" [ngStyle]="{'min-height': chat.state.MessageHeight}"
+       [class.triangle-obtuse]="chat.isChat == 'true'" [class.right]="chat.isClient == '1'"
+       [class.left]="chat.isClient != '1'"
+       [class.chatMessage]="chat.isChat == 'true'">
+      {{typewriter_display | emojify }}<br> <a style="font-size: 80%;font-style: italic;color: #b1b1b1;font-weight: bold">{{second_display | emojify }}</a>
+
+    </p>
+    <!--<p class="triangle-right" style="font-size: 80%;">{{chatSecondMessage}}</p>-->
+  </div>
+</div>
+</div>
+  <div class="row" *ngIf="chat.state.BackgroundImg!=''">
+    <img id="backgroundImg" src="{{chat.state.BackgroundImg}}" alt="" class="animated bounceInUp" alt="" [ngStyle]="StyleObject">
+  </div>
+  <div class="row" *ngIf="chat.beneficiary">
+    <div id="cardImage" class="cardBootstrap animated bounceInUp" style="width: 20rem;" >
+      <img class="card-img-topBootstrap" src="{{beneficiaryImage}}" alt="Card image cap">
+      <div class="card-blockBootstrap">
+        <h4 class="card-titleBootstrap">{{beneficiaryTitle}}</h4>
+        <p class="card-textBootstrap">Please confirm the details below</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item" *ngFor="let beneficiaryArr of beneficiaryArray">{{beneficiaryArr.Key}} : {{beneficiaryArr.Value}}</li>
+      </ul>
+      <!--<div class="card-block">-->
+      <!--<a href="#" class="card-link">Card link</a>-->
+      <!--<a href="#" class="card-link">Another link</a>-->
+      <!--</div>-->
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let video of chat.embedVideos">
+      <div [innerHTML]="youtubeUrl"></div>
+      <!--<iframe width="100px" height="100px" [src]="youtubeUrl" frameborder="0" allowfullscreen></iframe>-->
+    </div>
+  </div>
+  <div class="row">
+    <ng-container>
+      <div *ngFor="let i of Arr; let j = index;" class="col-2 hand">
+        <button [class.btn-success]="mouseOvered[j]" style="margin: 2%;"
+                class="btn btn-primary" (click)="mouseOvered[j]=true">{{i}}</button>
+      </div>
+    </ng-container>
+  </div>
+  <div class="row" >
+    <ng-container>
+    <div *ngFor="let image of chat.clickImages" class="col-4 hand" (click)="startResponse(image)"
+         (mouseover)="showDesc($event, image , true)" (mouseleave)="showDesc($event, image , false)">
+      <div class="card" style="margin-bottom: 6px;" >
+        <img class="img-circle cardImg" src="{{image.Img}}" alt="Card image cap">
+        <div class="card-block">
+          <!--<h4 class="card-title">Card title</h4>-->
+         <p class="card-text" style="font-size: small;">{{image.Text}}</p>
+          <!--<a href="#" class="btn btn-primary" (click)="startResponse(quick_reply.click)">Click</a>-->
+        </div>
+      </div>
+    </div>
+      <span *ngIf="showSpan" class="showSpan">{{showClickImageDesc | emojify}}</span>
+    </ng-container>
+  </div>
+  <div class="row">
+    <ng-container>
+      <mat-chip-list *ngFor="let quick_reply of chat.quickReplies" class="col-4 hand" [hidden]="quickReplySubmittedValue!=null">
+        <mat-chip md-raised-button (click)="startResponse(quick_reply)" color="Accent"
+                 class="animated" style="margin-top: 10%;text-align:center;width:100%;font-style:italic;font-size:70%;font-weight:bold;" [class.infinite]="infiniteAnimation" [class.wobble]="afterTyped" [class.quickBorder]="afterTypedBorder">
+          <!--<img [src]="quick_reply.Icons" alt="" style="width: 30%; margin-left: 20%;">-->
+          <!--<br>-->
+          {{quick_reply.Text}}
+        </mat-chip>
+      </mat-chip-list>
+      <p class="triangle-right top" *ngIf="quickReplySubmittedValue!=null">
+        {{quickReplySubmittedValue}}
+      </p>
+    </ng-container>
+  </div>
+  <div class="row" >
+    <ng-container>
+    <dynamic-form *ngIf="showAttr" [controlType]="chat.controlType" (submitted)="formSubmitted($event ,chat.controlType , chat.state.WorkflowType)" style="width: 100%;"></dynamic-form>
+    <div class="col-10 right-top" *ngIf="submittedValue!=null">
+      <div class="">
+        <p class="triangle-right top">
+          {{submittedValue}}
+        </p>
+      </div>
+    </div>
+    </ng-container>
+  </div>
+<div class="row" >
+  <ng-container>
+  <rating-feedback  *ngFor="let feedback of chat.feedback" style="margin-left: 15%;" [Feedback]="feedback"></rating-feedback>
+  </ng-container>
+</div>
+  <div class="row" *ngIf="isFrame">
+    <iframe width="100%" height="500" [src]="PAYMENT_WEB_URL | safe"></iframe>
+  </div>
+
+</div>
+<!--<div ngui-overlay-of="window" id="window-loading" ngui-overlay-position="center center">-->
+<!--</div>-->
+
+
+

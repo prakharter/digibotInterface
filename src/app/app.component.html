@@ -1,0 +1,21 @@
+<div >
+  <ngx-loading [show]="loading" style="height:500px;"></ngx-loading>
+</div>
+<div *ngIf="loggedIn">
+  <img id="loggingImage" src="http://www.clker.com/cliparts/r/M/L/o/R/i/green-dot.svg" alt="" class="animated flash infinite"
+       style="position: fixed;right: 1%;width: 20%;height: auto;z-index: 100;">
+</div>
+<div [hidden]="hideApp">
+  <div class="chat-window" style="max-height: 60%;" [ngClass]="ClassName">
+    <div class="panel-container" >
+      <div class="panel panel-default">
+        <div class="panel-body msg-container-base container wrapper">
+          <chat-message *ngFor="let chat of chats" [chat]="chat"></chat-message>
+        </div>
+      </div>
+    </div>
+    <h1 #scrollMe></h1>
+  </div>
+  <footer-button></footer-button>
+
+

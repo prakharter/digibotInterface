@@ -1,0 +1,12 @@
+<form
+  class="dynamic-form"
+  [formGroup]="myForm"
+(ngSubmit)="submit();$event.preventDefault()">
+        <ng-container
+          *ngFor="let field of controlType;"
+          dynamicField
+          [config]="field"
+          [group]="myForm">
+        </ng-container>
+        <button type="button" id="submitBtn" class="btn btn-info" (click)="submit();$event.preventDefault()" [hidden]="!myForm.valid" style="margin-left: 4%; margin-top: 5%;">Submit</button>
+</form>
