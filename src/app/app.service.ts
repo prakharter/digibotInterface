@@ -2,7 +2,7 @@ import {Injectable, EventEmitter, Output} from '@angular/core';
 import { Http, Response, Headers, RequestOptions } from "@angular/http";
 import { Observable } from "rxjs";
 import {ConfigurationService} from "./configuration/configuration";
-import { HubConnection } from '@aspnet/signalr';
+import {HubConnection, TransportType} from '@aspnet/signalr';
 import {ControlType} from "./Interface/ControlType";
 import {FormData} from "./Interface/FormData";
 
@@ -17,7 +17,8 @@ export class AppService {
 
   constructor(private _http: Http , private _configurationService:ConfigurationService) {
 
-    this._hubConnection = new HubConnection(this._configurationService.getURL()+'/SocketHub');
+    let transportType = TransportType.WebSockets;
+    this._hubConnection = new HubConnection(this._configurationService.getURL()+'/SocketHub' ,{ transport: transportType });
 
     this._hubConnection.start()
       .then(() => {
