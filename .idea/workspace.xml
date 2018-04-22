@@ -2,216 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8bc60f-3ef9-46bf-b331-4f35c1ced1db" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/app/web.config" />
+      <change beforePath="$PROJECT_DIR$/.angular-cli.json" afterPath="$PROJECT_DIR$/.angular-cli.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/client/animate.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/IWindow.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/Interface/ControlType.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/Interface/FormData.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/SppechRecognitionService.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/app.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/app.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/app.component.spec.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/app.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/app.module.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/app.routing.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/app.service.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/chat-message/chat-message.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/chat-message/chat-message.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/chat-message/chat-message.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/configuration/configuration.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/dynamic-field/dynamic-field.directive.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/dynamic-form/dynamic-form.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/dynamic-form/dynamic-form.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/dynamic-form/dynamic-form.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/focus.directive.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/footer-button/footer.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/footer-button/footer.component.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/footer-button/footer.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/form-button/form-button.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/form-button/form-button.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/form-button/form-button.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/form-checkbox/form-checkbox.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/form-checkbox/form-checkbox.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/form-input/form-input.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/form-input/form-input.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/form-input/form-input.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/form-select/form-select.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/form-select/form-select.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/form-select/form-select.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/layout.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/rating/rating.component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/rating/rating.component.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/rating/rating.component.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/app/safePipe.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/.gitkeep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/AirlinesStart.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/ArtificialIntelligence.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/Car Rental start (1).mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/CarRentalstart.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/ChooseLeadTemplates.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/CurrencyConverter.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/DeclinedPayments.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/FAQsStartState.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/Feedback.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/FinancialStart.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/FintechCardLimitIncreased.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/FintechDeclined.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/FintechFeedback.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/FintechIncreaseCard.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/FintechIncreaseClub.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/FintechLogin.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/FintechPaid.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/FintechPaytoBeneficiary.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/FintechServices.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/GamingSelection1.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/GamingSelection1Proceed.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/GamingSelection2.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/GamingStartState.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/InsuranceStart.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/LeadGenerationCaptureEmailAddress.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/LeadGenerationCaptureFullName.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/LeadGenerationStartState.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/MbCitySelection.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/MbTransportCaptureEmail.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/MbTransportCaptureName.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/MbTransportFeedback.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/MbTransportPayloadInformation.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/MbTransportProject.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/MbTransportStartState.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/MbTransportThankYouMessage.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/PaymentStartState.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/PaymentsAfterCollectingInformation.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/ProjectCatalogue.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/RealStateStart.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/RetailStart.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/ServicesStartState.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/Singularity.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/StateforStartingDigiBotWebChannel.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/TalkToAHumanStartState.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/Thankyoumessage.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/UpcomingProducts.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsuranceAddressDetails.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsuranceAsset.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsuranceAssetStart.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsuranceClub.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsuranceDriver.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsuranceEmail.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsuranceFinance.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsuranceFirstName.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsuranceOwnVehicle.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsurancePlanDetails.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsurancePurpose.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsuranceStart.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsuranceTracker.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/VehicleInsuranceparking.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/Weather.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/audio/c.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/css/nucleo-icons.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/css/paper-kit.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/fonts/nucleo-icons.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/fonts/nucleo-icons.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/fonts/nucleo-icons.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/fonts/nucleo-icons.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/BFSI-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/FAQs.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/FrontEndDeveloper.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/GraphicsDesigner.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/HumanChat.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/ProjectManager.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/Welcome-Picture-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/ai.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/car-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/customerFeedback.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/declinedPayment.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/digiLogo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/digiLogo2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/digiLogo3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/faq.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/finance-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/finance-min_1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/finteqLogo.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/gaming.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/goldBackground.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/handshake-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/insurance-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/lead generation-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/leadgeneration.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/logistics.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/marketing-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/mbTransportLogo.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/payment.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/redWallpaper.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/retail-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/services.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/talktohuman.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/Background/wallcoverings.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/BFSI.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/FAQs.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/Feedback-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/FrontEndDeveloper.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/GraphicDesign.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/HumanChat.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/OnlinePayment.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/ProjectManager.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/Welcome-Picture.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/background1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/background2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/background3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/car.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/compressjpeg.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/compressjpeg/BFSI-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/compressjpeg/Icons_Carousel-55.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/compressjpeg/Welcome-Picture-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/compressjpeg/car-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/compressjpeg/feedback-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/compressjpeg/finance-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/compressjpeg/handshake-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/compressjpeg/insurance-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/compressjpeg/lead generation-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/compressjpeg/marketing-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/compressjpeg/retail-min.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/customerFeedback.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/e462e25fd08d2f1c5055b7b7dae1ed2a.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/email.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/feedback.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/feedback2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/finance.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/firstName.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/gold-background-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/handshake.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/insurance.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/lead generation.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/macBackground.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/marketing.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/payments.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/retail.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/services.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/smile.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/wallcoverings.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/High Resolution/website.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/botLogo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/images/star-rating.icons.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/js/digibot.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/js/widget.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/svg/avatar_bot.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/svg/avatar_user.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/assets/svg/mic.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/environments/environment.prod.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/environments/environment.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/main.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/polyfills.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/signalr.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/styles.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/test.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/tsconfig.app.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/tsconfig.spec.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/client/typings.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/server/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/server/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/server/package.json" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -229,11 +22,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="270">
+              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".angular-cli.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.angular-cli.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -330,8 +143,9 @@
         <option value="$PROJECT_DIR$/src/server/index.js" />
         <option value="$PROJECT_DIR$/src/server/package.json" />
         <option value="$PROJECT_DIR$/src/server/package-lock.json" />
-        <option value="$PROJECT_DIR$/.angular-cli.json" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/web.config" />
+        <option value="$PROJECT_DIR$/.angular-cli.json" />
       </list>
     </option>
   </component>
@@ -381,6 +195,12 @@
               <item name="digibotInterface" type="b2602c69:ProjectViewProjectNode" />
               <item name="digibotInterface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="digibotInterface" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digibotInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -515,12 +335,12 @@
       <workItem from="1524207963284" duration="1551000" />
       <workItem from="1524241571353" duration="436000" />
       <workItem from="1524390910673" duration="1002000" />
-      <workItem from="1524391948558" duration="115000" />
+      <workItem from="1524391948558" duration="1563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227847000" />
+    <option name="totallyTimeSpent" value="229295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -583,13 +403,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/@angular/forms/src/form_providers.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/ngx-loading/bundles/ngx-loading.umd.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2222">
@@ -700,14 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -726,8 +531,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="270">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding />
         </state>
       </provider>
