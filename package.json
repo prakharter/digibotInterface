@@ -27,6 +27,7 @@
     "@ngui/overlay": "^0.8.0",
     "angular-emojify": "^0.2.0",
     "angular-star-rating": "^4.0.0-beta.3",
+    "body-parser": "^1.18.2",
     "bootstrap": "^4.1.0",
     "core-js": "^2.4.1",
     "enhanced-resolve": "^4.0.0",
