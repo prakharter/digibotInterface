@@ -173,11 +173,13 @@ console.log("Inside constructor of Chat-Message");
   beneficiaryArray:Array<any> = [];
   beneficiaryTitle:string;
   beneficiaryImage:string;
+  WorkflowType:string;
  // audio = new Audio();
   ngOnChanges(changes) {
     console.log("Inside ngOnChanges");
     if(changes.chat) {
       console.log("Changes Chat = " + JSON.stringify(changes.chat));
+      this.WorkflowType = changes.chat.currentValue.state.WorkflowType;
       if (changes.chat.currentValue.state.WorkflowType === 'beneficiary') {
         this.beneficiary = {
           Name: changes.chat.currentValue.beneficiaryDetails.Name,
@@ -392,6 +394,7 @@ newChat:any;
 
     }
     else if(WorkflowType != '' || WorkflowType !=null){
+      console.log("WorkflowType is not null = "+WorkflowType );
       this._appService.getStateInformation(controlType ,controlType[0].ResultingStateID,'', value , WorkflowType).subscribe(
         chatResponse => {
           console.log(chatResponse.response);
@@ -433,7 +436,7 @@ newChat:any;
       this.isOpacity = true;
       this._appService.emitLoading(true);
       this.quickReplySubmittedValue = payload.Text;
-      this._appService.getStateInformation(null,payload.ResultingStateID,payload.Text, '', '').subscribe(
+      this._appService.getStateInformation(null,payload.ResultingStateID,payload.Text, '', this.WorkflowType).subscribe(
         chatResponse => {
           console.log(chatResponse.response);
           this._appService.setChat(chatResponse.response);

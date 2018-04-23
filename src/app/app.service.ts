@@ -292,14 +292,14 @@ setMethod(value){
 
     console.log("Final CLIENTID = "+CLIENTID);
     let postData = {
-      CLIENTID:CLIENTID,
-      COST:FormData.cost * 100,
-      USER_FIRST_NAME: FormData.fullName,
-      USER_EMAIL:FormData.email,
-      CARD_NUMBER:FormData.cardNumber,
-      CARD_EXPIRY_DATE:FormData.expiryMonth+FormData.expiryDate,
+      ClientID:CLIENTID,
+      Cost:FormData.cost * 100,
+      FullName: FormData.fullName,
+      Email:FormData.email,
+      CardNumber:FormData.cardNumber,
+      ExpiryDate:FormData.expiryMonth+FormData.expiryDate,
       CVV:FormData.cvv,
-      SessionId:this.SessionId
+      SessionID:this.SessionId
     };
     console.log("inside getPayment Information");
     console.log(postData);
